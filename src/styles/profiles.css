@@ -1,0 +1,16 @@
+.profiles-container { 
+   display: grid;
+   grid-template-rows: auto auto auto;
+   justify-content: space-around;
+   align-content: center;
+ }
+
+ @media only screen and (min-width: 768px) {
+  .profiles-container { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+  }
+ 
+ }
